@@ -14,8 +14,8 @@ for IMAGE in *;
 do
     echo "elaborating ${IMAGE}"
     convert ${IMAGE} \
-                     -fuzz ${FUZZ}% \
-                     -fill '#f7f7f7' \
-                     -opaque '#f2f8f8' \ 
-            ${OUT_DIRECTORY}/${IMAGE}
+        -fuzz ${FUZZ}% \
+        -fill '#f7f7f7' \
+        -opaque '#ecf6f5' \
+        ${OUT_DIRECTORY}/${IMAGE}
 done
