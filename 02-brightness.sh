@@ -1,6 +1,6 @@
 # episode two: brightness adjust
 # example:
-# ${0} ~/directory_input ~/directory_output 20x20 (increase brightness+increase contrast)
+# ${0} ~/directory_input ~/directory_output 20x20 (increase brightnessxincrease contrast)
 
 # directory where we'll shave all images
 IN_DIRECTORY=$1
