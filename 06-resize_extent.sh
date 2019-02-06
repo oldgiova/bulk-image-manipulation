@@ -15,7 +15,7 @@ for IMAGE in ./*;
 do
     echo "elaborating ${IMAGE}"
     convert ${IMAGE} \
-                     -resize x${Y_AXIS} \
+                     -resize ${X_AXIS}x \
                      -gravity center \
                      -extent ${X_AXIS}x${Y_AXIS} \
                      -background none \
